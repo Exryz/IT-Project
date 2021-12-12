@@ -96,6 +96,7 @@ header {
 .overlay a:focus {
   color: #0088a9;
 }
+
 .overlay .close {
   position: absolute;
   top: 20px;
@@ -108,6 +109,7 @@ header {
   .overlay a {
     font-size: 20px;
   }
+
   .overlay .close {
     font-size: 40px;
     top: 15px;
@@ -116,10 +118,12 @@ header {
 }
 
 @media only screen and (max-width: 800px) {
+
   .nav__links,
   .cta {
     display: none;
   }
+
   .menu {
     display: initial;
   }
