@@ -1,76 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Tim's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 </head>
-
 <body>
-        <header>
-            <div class="container">
-                <nav>
-                    <div class="logo">
-                        <a href="#"><img src="assets/images/logo.svg" alt="logo"></a>
-                    </div>
-                    <div class="toggle-bar">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="navigation-bar">
-                        <ul>
-                                <li><a href="https://www.facebook.com/tmcbrl">My Facebook</a></li>
-                                <li><a href="https://twitter.com/zeergeeii">Twitter</a></li>
-                                <li><a href="https://www.youtube.com/channel/UC_HiAFKrv1DXUPI3kh4txYA">Youtube</a></li>
-                            <li class="back-btn"><a href="https://exryz.github.io/IT-Project/">Go back</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
 
-        <div class="main-content">
-            <div class="container">
-                <div class="main-content-wrapper">
-                    <div class="col-left">
-                        <span>Hi I am Jerico Timtim</span>
-                        <h1>Freelancer | Hosting Specialist</h1>
-                        <p>I am currently 17 years old, born on December 26, 2003. I live in Batangas City and I am currently pursuing Bachelor of Science in Information and Technology. </p>
-                        <a href="https://exryz.github.io/IT-Project/" class="btn-main">
-                            Go Back to Main Page
-                            <span> <img src="assets/images/arrow-right.svg" alt="arrow"></span>
-                        </a>
-                    </div>
-                    <div class="col-right">
-                        <img src="assets/images/john.svg" alt="Display image">
-                    </div>
-                </div>
-                <div class="experience-section">
-                    <div class="experience-inner">
-                        <div class="col">
-                            <h3>A few years</h3>
-                            <p>of experience</p>
-                        </div>
-                        <div class="col">
-                            <h3>10+</h3>
-                            <p>Projects completed</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="hero">
+        <nav>
+            <img src="images/logo1daw.png" class="logo">
+            <a href="https://exryz.github.io/IT-Project/" class="btn">Go Back</a>
+        </nav>
+        <div class="info">
+            <h1>I am <span>Tim Cabral</span></h1>
+            <h1>I'm a Coder & Web Host</h1>
+            <p>Welcome to my portfolio, and thank you for visiting my profile.</p>
+            <a href="#" class="btn">Contact Me</a>
+        </div>
+        <div class="img-box">
+            <img src="images/circle3.png" class="back-img">
+            <img src="images/me.png" class="man-img">
+        </div>
+        <div class="social">
+            <a href="https://t.me/mogurin64"><i class="fab fa-telegram"></i></a>
+            <a href="https://www.youtube.com/channel/UC_HiAFKrv1DXUPI3kh4txYA"><i class="fab fa-youtube"></i></a>
+            <a href="https://twitter.com/pchymgrn"><i class="fab fa-twitter"></i></a>
         </div>
     </div>
 
 </body>
-<script src="assets/js/jquery.min.js"></script>
-<script>
-    $('.toggle-bar').on('click', function (event) {
-        $('this').toggleClass('open');
-        $('.navigation-bar').slideToggle('200');
-    })
-</script>
-
 </html>

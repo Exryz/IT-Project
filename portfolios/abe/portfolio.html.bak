@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tim's Portfolio</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="tim.css">
+    <!----Fontawesome CDN Link----->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+
+    <div class="hero">
+        <nav>
+            <img src="logo1daw.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About Me</a></li>
+            </ul>
+            <a href="#" class="btn">Go Back</a>
+        </nav>
+        <div class="info">
+            <h1>I am <span>Tim Cabral</span></h1>
+            <h1>I'm a Coder & Web Host</h1>
+            <p>Welcome to my portfolio, and thank you for visiting my profile.</p>
+            <a href="#" class="btn">Contact Me</a>
+        </div>
+        <div class="img-box">
+            <img src="circle3.png" class="back-img">
+            <img src="me.png" class="man-img">
+        </div>
+        <div class="social">
+            <a href="#"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+
+</body>
+</html>
